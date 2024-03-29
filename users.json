@@ -1,0 +1,81 @@
+{
+  "573226494906": {
+    "step": 5,
+    "idioma": "es",
+    "tipo_persona": "empresario",
+    "nombre": "Esteban",
+    "correo": "Estevan@gmail.com",
+    "menu": {
+      "send": false,
+      "waitType": "interactive",
+      "waitBody": {
+        "crear anuncio": "anuncio",
+        "estadisticas": "estadisticas",
+        "create ad": "anuncio",
+        "statistics": "estadisticas"
+      }
+    },
+    "anuncio_tra": {
+      "send": false,
+      "waitType": "interactive",
+      "waitBody": {
+        "Restaurante": "Restaurant",
+        "Construccion": "Construction",
+        "Cuidadora de niños": "Child minders",
+        "Limpieza": "Cleaning",
+        "Mudanza": "Moving",
+        "Chofer": "Drivers",
+        "Ventas": "Sales",
+        "Fábricas": "Factories",
+        "Cuidado de animales": "Animal caretakers",
+        "Trabajo en linea": "Online work",
+        "Restaurant": "restaurante",
+        "Construction": "contruccion",
+        "Child minders": "cuidadora de niños",
+        "Cleaning": "limpieza",
+        "Moving": "mudanza",
+        "Driver": "chofer",
+        "Sales": "ventas",
+        "Factories": "fabricas",
+        "Animal careteakers": "cuidadores de animales",
+        "Online work": "trabajo en linea",
+        "continuar": "continuar",
+        "all locations": "todas",
+        "continue": "continuar",
+        "todas las localidades": "todas"
+      },
+      "body": []
+    },
+    "anuncio_loc": {
+      "send": false,
+      "waitType": "interactive",
+      "waitBody": [
+        "Appleton",
+        "Little chute",
+        "De pete",
+        "Green bay",
+        "Montiowoc",
+        "Casco",
+        "sheboygan",
+        "Fond du lac",
+        "Oshokosh",
+        "New London",
+        "continuar",
+        "todas las localidades",
+        "continue",
+        "all locations"
+      ],
+      "body": []
+    },
+    "anuncio_msg": {
+      "send": false,
+      "waitType": "text",
+      "body": ""
+    },
+    "estadisticas": {
+      "send": false,
+      "waitType": "text",
+      "body": ""
+    }
+  }
+}

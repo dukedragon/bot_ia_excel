@@ -1,0 +1,40 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "BUSINESS_DISPLAY_PHONE_NUMBER",
+              "phone_number_id": "BUSINESS_PHONE_NUMBER_ID"
+            },
+            "statuses": [
+              {
+                "id": "WHATSAPP_MESSAGE_ID",
+                "status": "sent",
+                "timestamp": "TIMESTAMP",
+                "recipient_id": "CUSTOMER_PHONE_NUMBER",
+                "conversation": {
+                  "id": "CONVERSATION_ID",
+                  "expiration_timestamp": "CONVERSATION_EXPIRATION_TIMESTAMP",
+                  "origin": {
+                    "type": "user_initiated"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
